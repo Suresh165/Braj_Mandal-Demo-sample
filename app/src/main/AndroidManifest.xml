@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.braj_mandal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Braj_Mandal">
+        <activity android:name=".nandgaon.nandgaon_info.pawan_sarovar_info"></activity>
+        <activity android:name=".nandgaon.nandgaon_info.Nandbaba_info" />
+        <activity android:name=".nandgaon.pawan_sarovar" />
+        <activity android:name=".nandgaon.Nandbaba" />
+        <activity android:name=".Barsana.Kushal_bihari" />
+        <activity android:name=".vrindavan.shri_rangji" />
+        <activity android:name=".vrindavan.Nidhivan" />
+        <activity android:name=".vrindavan.prem_mandir_vrindavan" />
+        <activity android:name=".vrindavan.Banke_Bihari" />
+        <activity android:name=".mathura.Jaigurudev" />
+        <activity android:name=".mathura.gita_mandir" />
+        <activity android:name=".mathura.dwarkadhish" />
+        <activity android:name=".mathura.Janmabhoom" />
+        <activity android:name=".mathura.Mathura_info" />
+        <activity android:name=".test.MainActivity" />
+        <activity android:name=".Sri_Chitra_Sakhee" />
+        <activity android:name=".Man_Ghar" />
+        <activity android:name=".Radha_Rani" />
+        <activity android:name=".kushal_bihari" />
+        <activity android:name=".Nandgaon" />
+        <activity android:name=".Barsana" />
+        <activity android:name=".vrindawan" />
+        <activity android:name=".Mathura" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
